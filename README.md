@@ -7,6 +7,8 @@ Jason Kwong (@kwongjc)
 
 ##Dependencies
 * Python 2.7.x
+* [Nullarbor](https://github.com/tseemann/nullarbor)
+* [mdu-tools](https://github.com/MDU-PHL/mdu-tools) (includes spades-fast)
 
 ##Usage
 
