@@ -15,12 +15,15 @@ Jason Kwong (@kwongjc)
 ```
 $ nullarbor-spades-fast.py -h
 usage: 
-  nullarbor-spades-fast.py DIR
+  nullarbor-spades-fast.py DIRECTORY
 
-Alter Nullarbor makefile to run spades-fast
+Alters Nullarbor makefile to run spades-fast
+1. Generate the Nullarbor makefile using "nullarbor.pl"
+2. Run this script as specified above
+3. Run the makefile eg. "nice make -j 8 -C /home/user/nullarbor" or enter the nullarbor output directory and type "make"
 
 positional arguments:
-  DIR         Nullarbor directory (required)
+  DIRECTORY   Nullarbor output directory containing Makefile (required)
 
 optional arguments:
   -h, --help  show this help message and exit
