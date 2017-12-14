@@ -1,16 +1,16 @@
 # nullarbor-shovill
 Runs Nullarbor using Shovill for assemblies
 
-##Author
+## Author
 
 Jason Kwong (@kwongjc)
 
-##Dependencies
+## Dependencies
 * Python 2.7.x
 * [Nullarbor](https://github.com/tseemann/nullarbor)
 * [Shovill](https://github.com/tseemann/shovill)
 
-##Usage
+## Usage
 
 ```
 $ nullarbor-shovill.py -h
@@ -30,10 +30,10 @@ optional arguments:
   --assdir DIRECTORY  directory containing previous assemblies (default="/mnt/seq/MDU/QC/")
 ```
 
-##Bugs
+## Bugs
 
 Please submit via the [GitHub issues page](https://github.com/kwongj/nullarbor-shovill/issues).  
 
-##Software Licence
+## Software Licence
 
 [GPLv3](https://github.com/kwongj/nullarbor-shovill/blob/master/LICENSE)
