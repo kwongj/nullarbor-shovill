@@ -1,5 +1,5 @@
-# nullarbor-spades-fast
-Runs nullarbor using spades-fast for assemblies
+# nullarbor-shovill
+Runs Nullarbor using Shovill for assemblies
 
 ##Author
 
@@ -8,28 +8,32 @@ Jason Kwong (@kwongjc)
 ##Dependencies
 * Python 2.7.x
 * [Nullarbor](https://github.com/tseemann/nullarbor)
-* [mdu-tools](https://github.com/MDU-PHL/mdu-tools) (includes spades-fast)
+* [Shovill](https://github.com/tseemann/shovill)
 
 ##Usage
 
 ```
-$ nullarbor-spades-fast.py -h
+$ nullarbor-shovill.py -h
 usage: 
-  nullarbor-spades-fast.py DIR
+  nullarbor-shovill.py DIRECTORY
 
-Alter Nullarbor makefile to run spades-fast
+Alters Nullarbor makefile to run shovill
+1. Generate the Nullarbor makefile using "nullarbor.pl"
+2. Run this script as specified above
+3. Run the makefile eg. "nice make -j 8 -C /home/user/nullarbor" or enter the nullarbor output directory and type "make"
 
 positional arguments:
-  DIR         Nullarbor directory (required)
+  DIRECTORY           Nullarbor output directory containing Makefile (required)
 
 optional arguments:
-  -h, --help  show this help message and exit
+  -h, --help          show this help message and exit
+  --assdir DIRECTORY  directory containing previous assemblies (default="/mnt/seq/MDU/QC/")
 ```
 
 ##Bugs
 
-Please submit via the [GitHub issues page](https://github.com/kwongj/nullarbor-spades-fast/issues).  
+Please submit via the [GitHub issues page](https://github.com/kwongj/nullarbor-shovill/issues).  
 
 ##Software Licence
 
-[GPLv3](https://github.com/kwongj/nullarbor-spades-fast/blob/master/LICENSE)
+[GPLv3](https://github.com/kwongj/nullarbor-shovill/blob/master/LICENSE)
